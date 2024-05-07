@@ -88,12 +88,6 @@ $(document).ready(function () {
         $(document).click(function () {
             dropDown.trigger('hide');
         });
-        if (selects.name == "PROPERTY[80]") {
-            document.querySelectorAll(".dropDown_basic_resum_contin")[1].style = "overflow: scroll;"
-        } else if (selects.name == "PROPERTY[85]") {
-            document.querySelectorAll(".dropDown_basic_resum_contin")[2].style = "overflow: scroll;"
-        } else if (selects.name == "PROPERTY[91]") {
-            document.querySelectorAll(".dropDown_basic_resum_contin")[3].style = "overflow: scroll;"
-        }
+
     }
 })
